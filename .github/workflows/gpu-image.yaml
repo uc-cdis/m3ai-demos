@@ -3,7 +3,7 @@ name: Build and Push Jupyter Image
 on:
   push:
     branches:
-      - main
+      - master
 
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
