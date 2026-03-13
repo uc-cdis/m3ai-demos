@@ -15,7 +15,7 @@ ADD "https://uchicago.box.com/shared/static/liwt3vlvdpmbfsa21wqboshh9nv6enm2.h5"
 RUN chmod -R 777 ./with-all-data
 
 # Install linux dependencies for building python wheels
-RUN yum install -y python3-devel gcc gcc-c++ && yum clean all && rm -rf /var/cache/yum
+RUN yum install -y python3-devel gcc gcc-c++ git && yum clean all && rm -rf /var/cache/yum
 
 USER ${NB_UID}
 WORKDIR /home/${NB_USER}
