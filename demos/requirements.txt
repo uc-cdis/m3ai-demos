@@ -6,4 +6,5 @@ scikit-learn
 scikit-survival==0.23.1
 umap-learn
 ipympl
+seaborn
 gen3
