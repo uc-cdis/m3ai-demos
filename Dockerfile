@@ -6,8 +6,8 @@ USER root
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install linux dependencies for building python wheels
-RUN /usr/bin/python3.9 /usr/bin/dnf-3 install -y python3.14-devel gcc gcc-c++ git \
- && /usr/bin/python3.9 /usr/bin/dnf-3 clean all \
+RUN yum install -y python3.14-devel gcc gcc-c++ git \
+ && yum clean all \
  && rm -rf /var/cache/dnf
 
 # Install python dependencies
