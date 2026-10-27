@@ -207,3 +207,8 @@ marimo/_lsp/
 __marimo__/
 
 demos/with-all-data/data
+.devcontainer
+credentials.json
+
+nciccr-dlbcl/
+demos/nciccr-dlbcl-embeddings.zip

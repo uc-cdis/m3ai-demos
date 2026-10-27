@@ -7,4 +7,5 @@ scikit-survival==0.23.1
 umap-learn
 ipympl
 seaborn
+plotly
 gen3

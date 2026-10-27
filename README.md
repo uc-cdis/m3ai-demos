@@ -1,6 +1,6 @@
 # m3ai-demos
 
-create environment with python=3.9 and the following packages:
+create environment with python=3.14 and the following packages:
 * pre-commit/detect-secrets
 * jupyterlab/ipywidgets
 
